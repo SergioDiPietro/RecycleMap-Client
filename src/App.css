@@ -1,0 +1,43 @@
+:root {
+  --primario: #60ad5e;
+  --sobreprimario: #3e3e3e;
+  --secundario: #a5d6a7;
+  --secundarioalternativo: #c8e6c9;
+  --sobresecundario: #3e3e3e;
+  --superficie: #a5d6a7;
+  --fondo: #ffffff;
+  --sobrefondo: #3e3e3e;
+  --error: #bf360c;
+  --sobreerror: #ffffff;
+}
+
+* {
+  margin: 0;
+}
+
+.mainContainer {
+  background-color: var(--fondo);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: var(--primario);
+  height: 10%;
+}
+
+.body {
+  background-color: var(--fondo);
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: var(--secundario);
+  height: 10%;
+}
